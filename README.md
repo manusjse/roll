@@ -1,5 +1,5 @@
 ## roll
-[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/libsgh/v2ray-heroku.git)
+[![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/manusjse/roll.git)
 
 ### heroku上部署
 - [x] 支持vm和vl两种协议
