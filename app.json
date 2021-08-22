@@ -6,17 +6,17 @@
   ],
   "env": {
     "PROTOCOL": {
-      "description": "协议vmess或vless",
+      "description": "vmess or vless",
       "value": "vmess",
       "required": true
     },
     "UUID": {
-      "description": "用户的主ID, uuidgenerator.net",
+      "description": "UserID, uuidgenerator.net",
       "value": "",
       "required": false
     },
     "WS_PATH": {
-      "description": "websocket路径",
+      "description": "websocket path",
       "value": "/ray",
       "required": true
     }
