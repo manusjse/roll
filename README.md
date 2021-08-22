@@ -3,7 +3,7 @@
 
 ### heroku deployment
 - [x] support vm/vl protocol
-- [x] self-define ws path
+- [x] definable ws path
 - [x] homepage（3D element cycle table）
 - [x] HTML5 speedtest
 - [x] new version structure
