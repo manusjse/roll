@@ -1,7 +1,7 @@
 {
   "inbounds": [
     {
-      "port": 22223,
+      "port": 23323,
       "protocol": "vless",
       "settings": {
         "clients": [
@@ -25,4 +25,3 @@
     }
   ]
 }
-© 2021 GitHub, Inc.
