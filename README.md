@@ -1,35 +1,32 @@
 ## roll
 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/manusjse/roll.git)
 
-### heroku上部署
-- [x] 支持vm和vl两种协议
-- [x] 支持自定义ws路径
-- [x] 伪装首页（3D元素周期表）
-- [x] HTML5测速
-- [x] 使用最新版构建
+### heroku deployment
+- [x] support vm/vl protocol
+- [x] self-define ws pan
+- [x] homepage（3D element cycle table）
+- [x] HTML5 speedtest
+- [x] new version structure
 
-请求`/`，返回3D元素周期表
+request`/`，back to 3D element cycle table
 
 ![image](https://cdn.jsdelivr.net/gh/libsgh/v2ray-heroku@main/doc/1.png)
 
-请求`/speedtest/`，html5-speedtest测速页面
+request`/speedtest/`，html5-speedtest page
 
 ![image](https://cdn.jsdelivr.net/gh/libsgh/v2ray-heroku@main/doc/2.png)
 
-请求`/test/`，文件下载速度测试
+request`/test/`，file-downloading speed test
 
 ![image](https://cdn.jsdelivr.net/gh/libsgh/v2ray-heroku@main/doc/3.png)
 
-请求`/ray`（可配置）ws路径
+request`/ray`（configurable）ws path
 
 
-### 环境变量说明
+### environmental variables explanation
 
-|  名称 | 值  | 说明  |
+|  Item | value  | Remark  |
 | ------------ | ------------ | ------------ |
-|  PROTOCOL |  vm<br>vl（可选） |  协议：nginx+vm+ws+tls或是nginx+vl+ws+tls |
-|  UUID |  [uuid在线生成器](https://www.uuidgenerator.net "uuid在线生成器") | 用户主ID  |
-|  WS_PATH | 默认为`/ray` |  路径，请勿使用`/speedtest`，`/`，`/test` 等已经被占用的请求路径 |
-
-### 进阶
-heorku可以绑卡（应用一直在线，不扣费），绑定域名，套cf，[uptimerobot](https://uptimerobot.com/) 定时访问防止休眠
+|  PROTOCOL |  vm<br>vl（optional） |  protocol：nginx+vm+ws+tls or nginx+vl+ws+tls |
+|  UUID |  [uuidgenerator](https://www.uuidgenerator.net "uuidonlinegenerator") | UserID  |
+|  WS_PATH | deflaut`/ray` |  path，do not use`/speedtest`，`/`，`/test` etc which path alreadly occupied path |
