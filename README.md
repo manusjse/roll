@@ -1,7 +1,7 @@
-## v2
+## roll
 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/libsgh/v2ray-heroku.git)
 
-### heroku上部署v2
+### heroku上部署
 - [x] 支持vm和vl两种协议
 - [x] 支持自定义websocket路径
 - [x] 伪装首页（3D元素周期表）
