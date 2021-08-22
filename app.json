@@ -1,6 +1,6 @@
 {
-  "name": "v2ray-heroku",
-  "description": "deploy VV to Heroku.",
+  "name": "roll",
+  "description": "deploy roll to Heroku.",
   "keywords": [
     "v2ray"
   ],
