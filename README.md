@@ -3,7 +3,7 @@
 
 ### heroku deployment
 - [x] support vm/vl protocol
-- [x] self-define ws pan
+- [x] self-define ws path
 - [x] homepage（3D element cycle table）
 - [x] HTML5 speedtest
 - [x] new version structure
@@ -29,4 +29,4 @@ request`/ray`（configurable）ws path
 | ------------ | ------------ | ------------ |
 |  PROTOCOL |  vm<br>vl（optional） |  protocol：nginx+vm+ws+tls or nginx+vl+ws+tls |
 |  UUID |  [uuidgenerator](https://www.uuidgenerator.net "uuidonlinegenerator") | UserID  |
-|  WS_PATH | deflaut`/ray` |  path，do not use`/speedtest`，`/`，`/test` etc which path alreadly occupied path |
+|  WS_PATH | deflaut`/ray` |  path，do not use`/speedtest`，`/`，`/test` etc which path alreadly occupied |
