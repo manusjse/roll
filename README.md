@@ -1,7 +1,7 @@
 ## roll
 [![](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/manusjse/roll.git)
 
-### heroku deployment
+### Heroku deployment
 - [x] support vm/vl protocol
 - [x] definable ws path
 - [x] homepage（3D element cycle table）
@@ -23,9 +23,9 @@ request`/test/`，file-downloading speed test
 request`/ray`（configurable）ws path
 
 
-### environmental variables explanation
+### Environmental variables explanation
 
-|  Item | value  | Remark  |
+|  Item | Value  | Remark  |
 | ------------ | ------------ | ------------ |
 |  PROTOCOL |  vm<br>vl（optional） |  protocol：nginx+vm+ws+tls or nginx+vl+ws+tls |
 |  UUID |  [uuidgenerator](https://www.uuidgenerator.net "uuidonlinegenerator") | UserID  |
