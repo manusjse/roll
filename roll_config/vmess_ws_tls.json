@@ -1,13 +1,13 @@
 {
   "inbounds": [
     {
-      "port": 22223,
+      "port": 23323,
       "protocol": "vmess",
       "settings": {
         "clients": [
           {
             "id": "$UUID",
-            "alterId": 4664
+            "alterId": 64
           }
         ],
         "disableInsecureEncryption": true
